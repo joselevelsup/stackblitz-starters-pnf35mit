@@ -3,8 +3,10 @@ const calc = document.getElementById("calc-form");
 calc.addEventListener("submit", function(e){
   e.preventDefault();
   //Add Code here to grab the first number input
+  //This will be a string
   const firstNum;
   //Add Code here to grab the second number input
+  //This will be a string as well
   const secondNum;
   //Add Code here to get the select element
   const operator;
